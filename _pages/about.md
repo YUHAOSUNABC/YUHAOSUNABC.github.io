@@ -23,3 +23,32 @@ I am always happy to discuss research and potential collaborations. Feel free to
 ## News
 
 - *Stay tuned — updates coming soon.*
+
+## Publications
+
+You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
+
+{% for category in site.publication_category %}
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+{% if post.category != category[0] %}{% continue %}{% endif %}
+{% unless title_shown %}
+<h3 class="publication-category">{{ category[1].title }}</h3>
+{% assign title_shown = true %}
+{% endunless %}
+{% include archive-single.html %}
+{% endfor %}
+{% endfor %}
+
+## Education
+
+- **Ph.D. in Computer Science**, The University of Melbourne — School of Computing and Information Systems, Faculty of Engineering and Information Technology · Aug 2025 – present
+- **M.S. in Information Technology (Artificial Intelligence)**, The University of Melbourne · Feb 2023 – Jun 2024 *(with Distinction)*
+- **B.S. in Computer Science**, The University of Melbourne · Feb 2020 – Nov 2022
+
+## Academic service
+
+- Reviewer, *International Conference on Machine Learning (ICML)*, 2025, 2026
+- Reviewer, *International Conference on Learning Representations (ICLR)*, 2026
+- Reviewer, *Transactions on Machine Learning Research (TMLR)*
+- Reviewer, *Neural Networks*
