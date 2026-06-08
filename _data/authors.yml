@@ -1,18 +1,10 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Yuhao Sun:
+  name        : "Yuhao Sun"
+  uri         : "https://YUHAOSUNABC.github.io"
+  email       : "yuhaos1@student.unimelb.edu.au"
+  bio         : "First-year PhD student working on agent safety and trustworthy machine learning."
+  avatar      : "profile.jpg"
+  github      : "YUHAOSUNABC"
+  twitter     : "YuhaoSun1527"
