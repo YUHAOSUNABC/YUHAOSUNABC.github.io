@@ -5,6 +5,9 @@ category: preprints
 permalink: /publication/2026-triad-guardrail-llm-agents
 date: 2026-06-05
 venue: 'arXiv preprint'
+authors: '<b>Yuhao Sun</b>, Jiacheng Zhang, Shaanan Cohney, Zhexin Zhang, Feng Liu, Xingliang Yuan'
+image: /images/publications/triad.png
+badge: 'In submission'
 paperurl: 'https://arxiv.org/abs/2606.05805'
 codeurl: 'https://github.com/YUHAOSUNABC/TRIAD'
 projecturl: 'https://yuhaosunabc.github.io/TRIAD/'

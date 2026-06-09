@@ -14,4 +14,98 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Custom styles: publication cards, scrolling news box, visitor map -->
+<style>
+  /* ---- Scrolling News box ---- */
+  .news-scroll {
+    max-height: 9.5em;
+    overflow-y: auto;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    padding: 0.4em 1em;
+    background: var(--global-bg-color);
+  }
+  .news-scroll ul { list-style: none; margin: 0.3em 0; padding-left: 0; }
+  .news-scroll li { margin: 0.55em 0; line-height: 1.45; }
+  .news-date {
+    display: inline-block;
+    min-width: 4.7em;
+    font-weight: 700;
+    color: var(--global-base-color);
+    margin-right: 0.35em;
+  }
+  .news-scroll::-webkit-scrollbar { width: 8px; }
+  .news-scroll::-webkit-scrollbar-thumb { background: var(--global-border-color); border-radius: 4px; }
+
+  /* ---- Publication cards ---- */
+  .pub-card {
+    display: flex;
+    gap: 1.1em;
+    align-items: flex-start;
+    margin: 1.4em 0;
+  }
+  .pub-card__media { flex: 0 0 200px; width: 200px; position: relative; }
+  .pub-card__img {
+    width: 100%;
+    display: block;
+    background: #fff;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    /* outlined, raised-off-the-page 3D feel */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10),
+                0 4px 10px rgba(0, 0, 0, 0.12),
+                0 10px 24px rgba(0, 0, 0, 0.10);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .pub-card__img:hover {
+    transform: translateY(-3px) scale(1.012);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16),
+                0 16px 32px rgba(0, 0, 0, 0.16);
+  }
+  .pub-card__badge {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    z-index: 2;
+    background: var(--global-base-color);
+    color: #fff;
+    font-size: 0.66em;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0.18em 0.5em;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    white-space: nowrap;
+  }
+  .pub-card__placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 1px dashed var(--global-border-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.78em;
+    line-height: 1.3;
+    color: var(--global-text-color-light);
+    background: var(--global-bg-color);
+  }
+  .pub-card__body { flex: 1 1 auto; min-width: 0; }
+  .pub-card__title { margin: 0 0 0.3em; font-size: 1.05em; line-height: 1.3; }
+  .pub-card__authors { margin: 0.2em 0; }
+  .pub-card__venue { margin: 0.2em 0; color: var(--global-text-color-light); }
+  .pub-card__links { margin: 0.35em 0 0; }
+  .pub-card__links a { margin-right: 0.5em; white-space: nowrap; }
+  .pub-note { color: var(--global-text-color-light); font-size: 0.9em; }
+
+  @media (max-width: 600px) {
+    .pub-card { flex-direction: column; }
+    .pub-card__media { width: 100%; max-width: 260px; }
+  }
+
+  /* ---- Visitor map ---- */
+  .visitor-map { text-align: center; margin: 1.5em auto 0; max-width: 360px; }
+</style>
+
 <!-- end custom head snippets -->

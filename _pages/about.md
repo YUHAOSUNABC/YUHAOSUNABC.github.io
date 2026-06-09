@@ -22,23 +22,25 @@ I am always happy to discuss research and potential collaborations. Feel free to
 
 ## News
 
-- *Stay tuned — updates coming soon.*
+<div class="news-scroll" markdown="0">
+<ul>
+<li><span class="news-date">Jun 2026</span> Released our preprint <a href="https://yuhaosunabc.github.io/TRIAD/"><b>TRIAD</b></a> — <em>From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents</em>.</li>
+<li><span class="news-date">Feb 2026</span> <a href="https://arxiv.org/abs/2601.20419"><b>BiFTA</b></a> was accepted to <b>TMLR</b>! 🎉</li>
+<li><span class="news-date">Jan 2026</span> Our paper on stealthy fine-tuning data extraction was accepted to <b>ICLR 2026</b>! 🎉</li>
+<li><span class="news-date">May 2025</span> <a href="https://arxiv.org/abs/2506.06027"><b>SSNI</b></a> was accepted to <b>ICML 2025</b>! 🎉</li>
+</ul>
+</div>
 
 ## Publications
 
 You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
 
-{% for category in site.publication_category %}
-{% assign title_shown = false %}
-{% for post in site.publications reversed %}
-{% if post.category != category[0] %}{% continue %}{% endif %}
-{% unless title_shown %}
-<h3 class="publication-category">{{ category[1].title }}</h3>
-{% assign title_shown = true %}
-{% endunless %}
-{% include archive-single.html %}
+<div class="pub-list">
+{% assign pubs = site.publications | sort: 'date' %}
+{% for post in pubs reversed %}
+{% include publication-card.html %}
 {% endfor %}
-{% endfor %}
+</div>
 
 ## Education
 

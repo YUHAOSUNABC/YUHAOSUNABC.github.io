@@ -1,0 +1,25 @@
+{% include base_path %}
+<div class="pub-card">
+  <div class="pub-card__media">
+    {% if post.badge %}<span class="pub-card__badge">{{ post.badge }}</span>{% endif %}
+    {% if post.image %}
+      <img class="pub-card__img" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ post.image | prepend: base_path }}{% endif %}" alt="{{ post.title | strip_html | escape }}" loading="lazy" />
+    {% else %}
+      <div class="pub-card__placeholder" aria-hidden="true"><span>figure<br>coming soon</span></div>
+    {% endif %}
+  </div>
+  <div class="pub-card__body">
+    <h3 class="pub-card__title">{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}<a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% endif %}</h3>
+    {% if post.authors %}<p class="pub-card__authors">{{ post.authors }}</p>{% endif %}
+    <p class="pub-card__venue"><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+    {% if post.paperurl or post.codeurl or post.projecturl or post.slidesurl or post.bibtexurl %}
+    <p class="pub-card__links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">[Paper]</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">[Code]</a>{% endif %}
+      {% if post.projecturl %}<a href="{{ post.projecturl }}">[Project Page]</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
+      {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">[Bibtex]</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</div>
