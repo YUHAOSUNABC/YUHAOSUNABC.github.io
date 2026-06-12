@@ -50,7 +50,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 
 ## Academic service
 
-- Reviewer, *International Conference on Machine Learning (ICML)*, 2025, 2026
-- Reviewer, *International Conference on Learning Representations (ICLR)*, 2026
-- Reviewer, *Transactions on Machine Learning Research (TMLR)*
+- Reviewer, *ICML*, 2025, 2026
+- Reviewer, *ICLR*, 2026
+- Reviewer, *TMLR*
 - Reviewer, *Neural Networks*

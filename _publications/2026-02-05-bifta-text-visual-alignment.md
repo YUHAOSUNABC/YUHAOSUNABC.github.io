@@ -6,7 +6,8 @@ permalink: /publication/2026-bifta-text-visual-alignment
 date: 2026-02-05
 venue: 'TMLR 2026'
 authors: '<b>Yuhao Sun</b>, Chengyi Cai, Jiacheng Zhang, Zesheng Ye, Xingliang Yuan, Feng Liu'
-image: # e.g. /images/publications/bifta.png — front-page figure; fill in to replace the placeholder
+image: /images/publications/bifta.png
+badge: 'TMLR 2026'
 paperurl: 'https://arxiv.org/abs/2601.20419'
 codeurl: 'https://github.com/tmlr-group/BiFTA'
 citation: '<b>Yuhao Sun</b>, Chengyi Cai, Jiacheng Zhang, Zesheng Ye, Xingliang Yuan, Feng Liu. (2026). &quot;Let''s Roll a BiFTA: Bi-refinement for Fine-grained Text-visual Alignment in Vision-Language Models.&quot; <i>TMLR 2026</i>.'

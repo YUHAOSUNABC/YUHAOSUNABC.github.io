@@ -17,8 +17,9 @@ main:
   - title: "Service"
     url: "/#academic-service"
 
+  # CV: points back to home for now — swap `url` to the uploaded CV PDF (e.g. /files/cv.pdf) once available.
   - title: "CV"
-    url: /cv/
+    url: "/"
 
   # - title: "CV"
   #   url: /cv-json/
