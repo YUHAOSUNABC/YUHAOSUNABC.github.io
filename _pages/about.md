@@ -27,6 +27,7 @@ I am always happy to discuss research and potential collaborations. Feel free to
 
 <div class="news-scroll" markdown="0">
 <ul>
+<li><span class="news-date">Current</span> I joined <b>Microsoft Research</b> as a research intern, working with <b>Dr. Xiaoting Qin</b>.</li>
 <li><span class="news-date">Jun 2026</span> Released our preprint <a href="https://yuhaosunabc.github.io/TRIAD/"><b>TRIAD</b></a> — <em>From Risk Classification to Action Plan Remediation: A Guardrail Feedback Driven Framework for LLM Agents</em>.</li>
 <li><span class="news-date">Feb 2026</span> <a href="https://arxiv.org/abs/2601.20419"><b>BiFTA</b></a> was accepted to <b>TMLR</b>! 🎉</li>
 <li><span class="news-date">Jan 2026</span> Our paper on stealthy fine-tuning data extraction was accepted to <b>ICLR 2026</b>! 🎉</li>
