@@ -4,7 +4,7 @@
     "email": "yuhaos1@student.unimelb.edu.au",
     "phone": "",
     "website": "https://YUHAOSUNABC.github.io",
-    "summary": "First-year PhD student at The University of Melbourne researching agent safety and trustworthy machine learning.",
+    "summary": "Second-year PhD candidate at The University of Melbourne and research intern at Microsoft Research, working with Dr. Xiaoting Qin. My research focuses on measuring and understanding the emergence of frontier risks, evaluating the capabilities of AI agents in complex environments, and ensuring agent safety before deployment, during execution, and after task completion.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -70,7 +70,7 @@
   "interests": [
     {
       "name": "Research interests",
-      "keywords": ["Agent safety", "Trustworthy machine learning"]
+      "keywords": ["Agent safety", "Frontier risk evaluation", "Trustworthy machine learning"]
     }
   ],
   "references": [],

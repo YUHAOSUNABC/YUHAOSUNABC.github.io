@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+I am a second-year PhD candidate at The University of Melbourne and currently a research intern at Microsoft Research, working with Dr. Xiaoting Qin.
+
 Education
 ======
 * **Ph.D. in Computer Science**, The University of Melbourne — Faculty of Engineering and Information Technology, School of Computing and Information Systems, Aug 2025 – present
@@ -18,6 +20,7 @@ Education
 Research interests
 ======
 * Agent safety
+* Frontier risk evaluation
 * Trustworthy machine learning
 
 Publications

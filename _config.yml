@@ -12,7 +12,7 @@ site_theme               : "mint" # The available themes options are "default", 
 title                    : "Yuhao Sun"
 title_separator          : "-"
 name                     : &name "Yuhao Sun"
-description              : &description "Personal academic homepage of Yuhao Sun, PhD student at The University of Melbourne researching agent safety and trustworthy machine learning"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal academic homepage of Yuhao Sun, second-year PhD candidate at The University of Melbourne and research intern at Microsoft Research, researching frontier risk evaluation and agent safety"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://YUHAOSUNABC.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,7 +27,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Yuhao Sun"
   pronouns         : # example: "she/her"
-  bio              : "First-year PhD student working on agent safety and trustworthy machine learning."
+  bio              : "Second-year PhD candidate researching frontier risk evaluation and agent safety. Research intern at Microsoft Research."
   location         : "Melbourne, Australia"
   employer         : "The University of Melbourne"
   uri              : # URL
